@@ -1,0 +1,41 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+.mesa {
+  font-size: 10px;
+  width: 120em;
+  height: 60em;
+  margin: auto;
+  margin-top: 25px;
+  padding: 5em;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.mesa div {
+  width: 10em;
+  height: 10em;
+  background-color: white;
+  border-radius: 0.3em;
+  text-align: center;
+  padding: 1em;
+  box-sizing: border-box;
+  float: left;
+  margin: 1em 1.1em 1em 1.1em;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.mesa div:active{
+    transform: rotateY(-180deg);
+    transition: .5s;
+    box-shadow: 1px 1px 5px 1px rgba(44, 224, 186, 0.8);
+    cursor: pointer;
+}
+
+
+.ico {
+  font-size: 5em;
+}
